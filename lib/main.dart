@@ -29,7 +29,7 @@ class MyHomePage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(title: const Text('GetX Demo')),
-      body: MovesColumn(),
+      body: Container(child: MovesColumn()),
       // body: Center(
       //   child: Column(
       //     mainAxisAlignment: MainAxisAlignment.center,
